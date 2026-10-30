@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Periodic Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Periodic Table of Elements</h1>
+        <p>Explore the 118 chemical elements</p>
+    </header>
+
+    <main class="container">
+        <input
+            type="text"
+            id="search"
+            placeholder="Search element name, symbol, or atomic number..."
+        >
+
+        <div class="legend">
+            <span class="alkali">Alkali metal</span>
+            <span class="nonmetal">Nonmetal</span>
+            <span class="noble">Noble gas</span>
+            <span class="metalloid">Metalloid</span>
+            <span class="transition">Transition metal</span>
+            <span class="other">Other metal</span>
+            <span class="lanth">Lanthanoid</span>
+            <span class="act">Actinoid</span>
+            <span class="halogen">Halogen</span>
+        </div>
+
+        <div id="periodic-table" class="periodic-table"></div>
+
+        <section id="details" class="details">
+            <h2>Element Details</h2>
+            <p>Click any element to see its information.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
